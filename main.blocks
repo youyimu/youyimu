@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Z*_i3Lga^ABDmqC15lbe">mySprite</variable><variable type="KIND_SpriteKind" id="76E4+;gbyxjBKfSw@@t~">Player</variable><variable type="KIND_SpriteKind" id="`3;Svkl89NAciAlLQlX8">Projectile</variable><variable type="KIND_SpriteKind" id="8n#bpqF[r4|R4wl~5Kl~">Food</variable><variable type="KIND_SpriteKind" id="4TBIc=$.$InG[Tp(1uk^">Enemy</variable></variables><block type="pxt-on-start" id="hINk$lQ71p5TV+S5/I@Q" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id=".e/KoIJv{D?1k1.Zt=8s"><field name="VAR" id="Z*_i3Lga^ABDmqC15lbe">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="gIOkA?dpHS_mg~AIU8,q"><value name="img"><shadow type="screen_image_picker" id="J{727!m6._`N=aPXXz6q"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . f f f 2 2 f f f . . . . 
+. . . f f f 2 2 2 2 f f f . . . 
+. . f f f e e e e e e f f f . . 
+. . f f e 2 2 2 2 2 2 e e f . . 
+. f f e 2 f f f f f f 2 e f f . 
+. f f f f f e e e e f f f f f . 
+. . f e f b f 4 4 f b f e f . . 
+. . f e 4 1 f d d f 1 4 e f . . 
+. . . f e 4 d d d d 4 e f e . . 
+. . f e f 2 2 2 2 e d d 4 e . . 
+. . e 4 f 2 2 2 2 e d d e . . . 
+. . . . f 4 4 5 5 f e e . . . . 
+. . . . f f f f f f f . . . . . 
+. . . . f f f . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"J{727!m6._`N=aPXXz6q"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="a=b?@)Q1s]4?W$,`,VSz"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="xOsJ#9|6]boK5-Q~bxAc"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="!FpW`P7zCalw5-$Fog/_"><field name="VAR" id="Z*_i3Lga^ABDmqC15lbe">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="o5+PBq:7I07!;(g1{iHE"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="x+(Bb?k?F%R]:0BouEb."><field name="speed">100</field></shadow></value><next><block type="gamesetbackgroundcolor" id="{a!F_iv,_OFA*1nPtH@R"><value name="color"><shadow type="colorindexpicker" id="MA@(vNc[3DmVZub/Bkc8"><field name="index">7</field></shadow></value></block></next></block></next></block></statement></block></xml>
